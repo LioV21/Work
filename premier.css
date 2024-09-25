@@ -1,0 +1,100 @@
+/* General Styling */
+.content {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+    color: #FFD700; /* Premier League-themed gold */
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* List Styling */
+ul, ol {
+    background-color: rgba(8, 8, 8, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 50px;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    background-image: url('images/premback.png'); /* Background image */
+    background-size: cover; /* Make sure the background covers the whole page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the background */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.966);
+    text-align: center;
+}
+
+/* Image Styling */
+ol img {
+    vertical-align: middle; /* Align images with text */
+    margin-right: 15px; /* Add more space between the image and text */
+    border-radius: 50%; /* Make the images circular */
+    width: 150px; /* Increase image size */
+    height: 150px; /* Ensure it is a square */
+    object-fit: cover; /* Ensures the image covers the circular area */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Add a shadow to make the images pop */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Images */
+ol img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff00bf; /* Adjusted hover color */
+}
